@@ -135,14 +135,14 @@ $(function() {
       box_shadow: '#62677b',
       icon: 'img/shuziweiba.png',
     }, {
-      name: '淘宝优惠券',
+      name: '淘宝优惠',
       link: 'https://s.click.taobao.com/tWrFYpu',
       box_shadow: '#F2584A',
       icon: 'img/youhui.png',
     }]
   }
   for (var i = 0; i < bookmark.data.length; i++) {
-    if (bookmark.data[i].name == 'Via插件') {
+    if (bookmark.data[i].name == '今日热榜') {
       var addList = '<li class="folder-item col-xs-3 col-sm-2 visible-xs visible-sm"><a target="_blank" href="' + bookmark.data[i].link + '"><div class="folder-item-box"><img class="folder-item-img" style="box-shadow:' + bookmark.data[i].box_shadow + ' 0 14px 12px -6px" src="' + bookmark.data[i].icon + '" /><p>' + bookmark.data[i].name + '</p></div></a></li>'
     } else {
       var addList = '<li class="folder-item col-xs-3 col-sm-2"><a target="_blank" href="' + bookmark.data[i].link + '"><div class="folder-item-box"><img class="folder-item-img" style="box-shadow:' + bookmark.data[i].box_shadow + ' 0 14px 12px -8px" src="' + bookmark.data[i].icon + '" /><p>' + bookmark.data[i].name + '</p></div></a></li>'
