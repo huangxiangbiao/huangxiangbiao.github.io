@@ -136,7 +136,7 @@ $(function() {
       icon: 'img/shuziweiba.png',
     }, {
       name: '淘宝优惠',
-      link: 'https://s.click.taobao.com/tWrFYpu',
+      link: 'https://m.tb.cn/h.4MwgY2X',
       box_shadow: '#F2584A',
       icon: 'img/youhui.png',
     }]
