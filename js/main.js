@@ -125,7 +125,7 @@ $(function() {
       box_shadow: '#3279ea',
       icon: 'img/xiaozhong.png',
     }, {
-      name: 'Unsplash',
+      name: 'UnsPlash',
       link: 'https://unsplash.com/',
       box_shadow: '#2C2C2C',
       icon: 'img/unsplash.png',
